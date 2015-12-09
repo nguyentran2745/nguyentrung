@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+   	<LinearLayout
+   	    android:id="@+id/line1"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="match_parent"
+   	    android:orientation="vertical" >
+
+   	    <TextView
+   	        android:id="@+id/text1"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="Phan Nhom"
+   	    android:textSize="30sp"
+   	    android:textStyle="bold"
+   	        ></TextView>
+
+   	    <ListView
+   	        android:id="@+id/lisst1"
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="261dp" >
+</ListView>
+   	    <LinearLayout
+   	    android:id="@+id/line2"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:orientation="horizontal"
+   	    >
+   	    <Spinner
+   	         android:id="@+id/spin3"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_weight="1"
+   	    android:text="Thêm Loại Giao Dịch"
+   	        ></Spinner>
+   	    <Button  	        
+   	    android:id="@+id/nguyenbutton1"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="60dp"
+   	    android:layout_weight="4"
+   	    android:background="@drawable/cong"
+   	        ></Button>
+   	</LinearLayout>
+   	</LinearLayout>
+</LinearLayout>

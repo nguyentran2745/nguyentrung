@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/text1"
+        android:text="Tìm Theo Ngày"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        ></TextView>
+    <EditText
+        android:id="@+id/edit1_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="dd/mm/yyyy"
+        ></EditText>
+    <Button
+        android:id="@+id/buttonok"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        ></Button>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/nguyencat/Desktop/nguyenassfinal/ParseStarterProject/src/main/res/layout/dialogdate.xml -->
